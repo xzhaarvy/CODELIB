@@ -7,10 +7,10 @@ pajak = 0.11
 # hitungan pajak yang harus di bayar
 pajak_bayar = harga_barang * pajak
 
-# hitungan setelah kena ppn 11% 😒
+# total setelah pajak
 total_harga = harga_barang + pajak_bayar
 
-# hasilnya bosqu
-print("Harga barang segini: Rp", harga_barang)
-print("PPN 11% YAGESYA: Rp", pajak_bayar)
-print("Total harga setelah pajak: Rp", total_harga)
+# hasil yang harus dibayar
+print("Input Jumlah Barang: Rp", harga_barang)
+print("Total Pajak 11%: Rp", pajak_bayar)
+print("Total Harga Yang Harus Dibayar: Rp", total_harga)
